@@ -1,0 +1,70 @@
+/* login.css */
+
+.login{
+  background-color: #4880FF;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  /* height: vh; 
+  margin: 0;  */
+}
+
+.logo{
+  height: 100px;
+  width: 100px;
+}
+
+.login-container {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 60px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: white;
+  height:680px;
+}
+
+.forgot-password {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 0px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.checkbox-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.button-group button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: #4880FF;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button-group button:hover {
+  background-color: #0056b3;
+}
